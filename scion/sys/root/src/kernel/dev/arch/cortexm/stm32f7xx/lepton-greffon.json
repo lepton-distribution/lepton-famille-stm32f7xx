@@ -2,7 +2,7 @@
   "nom": "stm32f7xx",
   "type": "famille",
   "version": "1.0.0",
-  "description": "Famille STM32F7 : couche Lepton (USART, Ethernet, tick de la HAL), HAL ST STM32CubeF7 1.17.4 (hal_driver), CMSIS device ST STM32F7xx (cmsis-5). Seuls les fichiers listés dans sources sont compilés ; stm32f7xx_hal_conf.h est fourni par le BSP.",
+  "description": "Famille STM32F7 : couche Lepton (USART, Ethernet, tick de la HAL), HAL ST v1.3.3 (hal_driver) et CMSIS device ST v1.2.10 (cmsis-5) de STM32CubeF7 v1.17.4, projetés par scion depuis les miroirs lepton-distribution/mirror-* (scion/.scion/, scion >= 0.6.1.0), provenance dans LEPTON-PROVENANCE.md. Seuls les fichiers listés dans sources sont compilés ; stm32f7xx_hal_conf.h est fourni par le BSP.",
   "destination": "kernel/dev/arch/cortexm/stm32f7xx",
   "bibliotheque": "kernel",
   "sources": [
